@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Tornado_Optimized
+  m_Shader: {fileID: 4800000, guid: 0f5c0f36a053e9e4ea4329da855b01aa, type: 3}
+  m_ShaderKeywords: _USENOISE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f2da99ef38d4e2f4bb624ef6a5866a94, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexA:
+        m_Texture: {fileID: 2800000, guid: f2da99ef38d4e2f4bb624ef6a5866a94, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexR:
+        m_Texture: {fileID: 2800000, guid: f2da99ef38d4e2f4bb624ef6a5866a94, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Displacement: 2.5
+    - _clipThresh: 0
+    - _colInt: 200
+    - _colMult: 1
+    - _flameMultiplier: 1
+    - _maskBottom: 1.5
+    - _maskOpacity: 8
+    - _maskTop: 4
+    - _noiseAmount: 0.125
+    - _noisePower: 0
+    - _noiseScale: 100
+    - _noiseSpeedX: 0
+    - _noiseSpeedY: -0.4
+    - _pulseForce: 2.5
+    - _pulseSpeed: 1
+    - _scaleNoiseX: 1
+    - _scaleNoiseY: 1
+    - _scrollSpeed: -0.9
+    - _scrollSpeed1X: -1
+    - _scrollSpeed1Y: -1.5
+    - _scrollSpeed2X: -0.25
+    - _scrollSpeed2Y: -0.35
+    - _scrollSpeedX: -0.55
+    - _scrollSpeedXA: -0.15
+    - _scrollSpeedXB: -0.05
+    - _scrollSpeedXG: -0.5
+    - _scrollSpeedXR: -0.8
+    - _scrollSpeedY: -0.25
+    - _scrollSpeedYA: -0.15
+    - _scrollSpeedYB: 0
+    - _scrollSpeedYG: -0.5
+    - _scrollSpeedYR: -0.8
+    - _sideMask: 1
+    - _texScale1X: 2
+    - _texScale1Y: 3
+    - _texScale2X: 1
+    - _texScale2Y: 1
+    - _texScaleGX: 1
+    - _texScaleGY: 1
+    - _texScaleR: 1
+    - _texScaleRX: 4
+    - _texScaleRY: 4
+    - _useNoise: 1
+    - _warpAmount: 0.15
+    m_Colors:
+    - _ColorA: {r: 95.87451, g: 10.039216, b: 1.0039216, a: 1}
+    - _ColorB: {r: 8, g: 8, b: 0, a: 1}
+    - _noiseTexScale: {r: 1, g: 1, b: 0, a: 0}
+    - _noiseTransform: {r: 0, g: 0, b: 0, a: 0}
+    - _texScaleB: {r: 5, g: 5, b: 0, a: 0}
+    - _texScaleG: {r: 2, g: 2, b: 1, a: 1}
+    - _texScaleR: {r: 3, g: 3, b: 0, a: 0}
