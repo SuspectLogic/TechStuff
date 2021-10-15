@@ -38,6 +38,7 @@ def GetJointSelection():
     cj = cmds.listRelatives(sl, allDescendents = True, type = 'joint')
     return cj
 
+# This will set the color that's given.
 def SetRGBColor(ctrl, color):
     rgb = ("R","G","B")    
     cmds.setAttr(ctrl + ".overrideEnabled",1)
@@ -58,7 +59,7 @@ def SetColorForShapes():
         parent = sl[0] + "|"
         currentShape = parent + s
         
-        SetRGBColor(currentShape, blue) # This will set the color
+        SetRGBColor(currentShape, blue) 
 
 class QuickToolsUI():
     def __init__(self):
