@@ -17,9 +17,9 @@ imageList = []
 
 dir = os.listdir(imagePath)
 
-for i in dir:
-    if i.endswith('.png'):
-        imageList.append(i)
+for d in dir:
+    if d.endswith('.png'):
+        imageList.append(d)
 
 for i in imageList:
     # remove extension from end of image names.
